@@ -22,7 +22,7 @@ function App() {
   return (
     <div>
     <h1>Blog Posts</h1>
-    {error ? <ErrorMessage error={error} /> : <BlogList posts={posts} />}
+    {error ? <ErrorMessage message={error} /> : <BlogList posts={posts} />}
   </div>
 );
 };
